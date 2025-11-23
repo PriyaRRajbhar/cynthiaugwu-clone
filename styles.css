@@ -18,12 +18,12 @@ html,body{
     width:100%;
     height: 100vh;
     background-color: black;
-    color: #fff;
+    color: #ffffff;
 }
 
 #nav{
     width: 100%;
-    padding: 2vw 4vw;
+    padding: 2vw 3vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,21 +33,86 @@ html,body{
     color: white;
     text-decoration: none;
     font-size: 1.2vw;
+    font-weight: 500;
 }
 
-#heading h1{
-    font-family: "General Sans Medium" ;   
-    font-size: 9.5vw;
+#heading{
+    margin-top: 4vh;
+}
+
+#heading h1{   
+    font-family: "General Sans";
+    font-size: 10vw;
     text-transform: uppercase;
-    font-weight: 550;
+    font-weight: 900;
     line-height: 1;
-    opacity: 0.6;
-    margin-left: 7vh
+    color: #d5d5d5;
+    opacity: 0.8;
+    margin-left: 7vh;
+    
 }
 
-#heading h5{
-    text-transform: uppercase;
+#heading .heading2{
+    margin-left: 14vw;
 }
+
+.blocktext{
+    width: fit-content;
+}
+
+.blocktext h5{
+    text-align:right;
+    text-transform: uppercase;
+    font-size: 1vw;
+}
+
+#herobottom{
+    position: absolute;
+    width: 100%;
+    bottom: 3%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vh 3vw;
+}
+
+#herobottom a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+#herobottom #iconset{
+    display:flex;
+    gap: 0.3vw;
+}
+
+#herobottom .circle{
+    width: 1.5vw;
+    height: 3vh;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#herobottom-last{
+    margin-top: 23vh;
+    padding-right: 3vw;
+}
+
+#herobottom-last h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 0.5vh;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+
 
 
 
